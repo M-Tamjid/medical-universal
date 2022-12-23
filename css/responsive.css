@@ -63,11 +63,17 @@ p.news-para {
 .form-col {
   display: flex;
 }
+ .d-flex {
+    display: none !important;
+}
 }
 
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 575px) and (max-width: 767px) {
+ .d-flex {
+    display: none !important;
+}
 .container.banner-container {
     padding: 60px 0px;
 }
@@ -127,6 +133,9 @@ img.phicon {
 
 /* Extra small Device. */
 @media (max-width: 575px) {
+ .d-flex {
+    display: none !important;
+}
 h1.headline {
     font-size: 32px;
     line-height: 40px;
